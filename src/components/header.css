@@ -1,0 +1,40 @@
+header{
+    background-color: rgb(44, 62, 80);
+    padding: 1rem;
+}
+
+.contenedor{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contenedor .link{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.contenedor h1{
+    margin: 0;
+}
+
+footer{
+    background-color: rgb(44, 62, 80);
+    padding: 1rem;
+}
+
+.parrafo{
+    text-align: center;
+    color: white;
+    background-color: rgb(33, 44, 55);
+    margin: 0;
+    padding: 1rem;
+}
+
+@media(min-width: 768px){
+    .contenedor{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;   
+    }
+}

@@ -1,0 +1,32 @@
+nav{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+    margin-top: 1.5rem;
+}
+
+.link{
+    color: white;
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 1rem;
+    font-family: 'PT Sans', sans-serif;
+    text-decoration: none;
+    padding: 1rem;
+    margin-right: 1rem;
+}
+
+.link:last-child{
+    margin-right: 0;
+}
+
+.pagina-actual{
+    border-bottom: 2px solid white;
+}
+
+@media(min-width: 768px){
+    nav{
+        padding-bottom: 0;
+        margin-top: 0;  
+    }
+}
